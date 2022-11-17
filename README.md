@@ -56,7 +56,7 @@ Follow steps below to train your model:
 
 The dataset can be download in [baiduCloud](https://pan.baidu.com/s/1zTQU_rilu4I_klvCgxi70Q) (Extraction code: 69jq).
 
-1. Input arguments: (see full input arguments via python train.py --help):
+1. Input arguments: (commondrecord.txt records two input examples. See full input arguments via rsn_main.py, rsn_main_gan.py):
     ```Shell
     usage: python rsn_main.py   \
             --backbone=csp \
