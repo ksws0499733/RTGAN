@@ -27,11 +27,9 @@
 ### Introduction
 This is a PyTorch(0.4.1) implementation of DFR. 
 
-![Results](doc/steps.png)
+![Results](doc/fig_network3.png)
 
-![Results](doc/principle4SRM.png)
-
-![Results](doc/result.png)
+![Results](doc/fig_rst.png)
 
 
 ### Installation
