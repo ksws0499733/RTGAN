@@ -1,0 +1,26 @@
+python rsn_main.py   \
+--backbone=csp \
+--neck=LSN \
+--dataset=iRailway \
+--batch-size=16 \
+--epochs=80 \
+--loss-type=ce \
+--dataAug=dig,shadow,affine \
+--testPath=doc/test_data/ \
+--dataRepeat=1 \
+--trainRepeat=1 \
+--test-interval=10
+
+python rsn_main_gan.py \
+--backbone=csp \
+--neck=LSN \
+--dataset=iRailway \
+--batch-size=16 \
+--epochs=80 \
+--loss-type=bce \
+--dataAug=dig,shadow,affine \
+--testPath=doc/test_data/ \
+--dataRepeat=1 \
+--trainRepeat=1 \
+--test-interval=10 \
+--generator-model=run/iRailway/csp-LSN-ce-iRailway-dr1/experiment_0/best_model.pth 
